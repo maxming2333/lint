@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/stylelint-config-keroro.svg?style=flat)](https://npmjs.org/package/stylelint-config-keroro)
 [![NPM downloads](https://img.shields.io/npm/dm/stylelint-config-keroro.svg?style=flat)](https://npmjs.org/package/stylelint-config-keroro)
-[![License](https://img.shields.io/github/license/maxming2333/stylelint-config-keroro.svg?style=flat)](https://github.com/maxming2333/stylelint-config-keroro/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/maxming2333/lint.svg?style=flat)](https://github.com/maxming2333/lint/blob/main/LICENSE)
 
 
 本 stylelint 配置文件，是 Keroro 的标准规范配置

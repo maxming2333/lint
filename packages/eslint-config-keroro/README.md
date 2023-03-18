@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/eslint-config-keroro.svg?style=flat)](https://npmjs.org/package/eslint-config-keroro)
 [![NPM downloads](https://img.shields.io/npm/dm/eslint-config-keroro.svg?style=flat)](https://npmjs.org/package/eslint-config-keroro)
-[![License](https://img.shields.io/github/license/maxming2333/eslint-config-keroro.svg?style=flat)](https://github.com/maxming2333/keroro/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/maxming2333/lint.svg?style=flat)](https://github.com/maxming2333/lint/blob/main/LICENSE)
 
 本 eslint 配置文件，支持 纯 js/ts 项目 或者 js+ts 混合项目
 

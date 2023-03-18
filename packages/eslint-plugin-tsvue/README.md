@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/eslint-plugin-tsvue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-tsvue)
 [![NPM downloads](https://img.shields.io/npm/dm/eslint-plugin-tsvue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-tsvue)
-[![License](https://img.shields.io/github/license/maxming2333/eslint-plugin-tsvue.svg?style=flat)](https://github.com/maxming2333/eslint-plugin-tsvue/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/maxming2333/lint.svg?style=flat)](https://github.com/maxming2333/lint/blob/main/LICENSE)
 
 本插件用来解决 vue 项目中 JS/TS 混合开发的过度阶段带来的 eslint 问题
 
