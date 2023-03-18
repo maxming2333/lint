@@ -12,6 +12,13 @@
 - [husky-keroro](https://github.com/maxming2333/lint/tree/main/packages/husky-keroro): husky 规范
 
 
+## 使用
+
+```bash
+npm install husky lint-staged eslint stylelint @commitlint/cli husky-keroro lint-staged-keroro eslint-config-keroro stylelint-config-keroro commitlint-config-keroro --save-dev
+```
+
+
 ## 开发
 
 ```bash
