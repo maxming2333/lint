@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-tsvue-parser",
+  "version": "1.0.2",
+  "description": "Used for the JS/TS hybrid project, make vue+ts become another extension",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=6.0.0",
+    "vue-eslint-parser": "^9.0.0"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint/tree/main/packages/eslint-plugin-tsvue-parser",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

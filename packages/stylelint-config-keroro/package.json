@@ -1,0 +1,43 @@
+{
+  "name": "stylelint-config-keroro",
+  "version": "1.0.0",
+  "description": "Keroro Stylelint configuration file",
+  "main": "index.js",
+  "peerDependencies": {
+    "stylelint": ">=10.0.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "stylelint-config-ali": "^0.4.2",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-recommended": "^10.0.1",
+    "stylelint-config-recommended-scss": "^9.0.1",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^4.3.0"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint/tree/main/packages/stylelint-config-keroro",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

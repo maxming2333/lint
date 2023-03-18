@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+PROJECT_PATH="$(pwd)"
+
+. "$(dirname -- "$0")/_/husky.sh"
+. "$(dirname -- "$0")/shell/common.sh"
+
+cd "$PROJECT_PATH"
+
+echo "[commit-msg]当前项目目录为：$PROJECT_PATH"
+
+npx --no-install commitlint --edit "$1"

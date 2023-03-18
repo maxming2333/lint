@@ -1,0 +1,38 @@
+{
+  "name": "lint-staged-keroro",
+  "version": "1.0.0",
+  "description": "Keroro lint-staged configuration file",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./install.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.0.0",
+    "lint-staged": ">=13.0.0"
+  },
+  "dependencies": {
+    "@npmcli/package-json": "^3.0.0",
+    "micromatch": "^4.0.5"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint/tree/main/packages/lint-staged-keroro",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

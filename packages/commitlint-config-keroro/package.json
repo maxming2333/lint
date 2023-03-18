@@ -1,0 +1,34 @@
+{
+  "name": "commitlint-config-keroro",
+  "version": "1.0.0",
+  "description": "Keroro Commitlint configuration file",
+  "main": "index.js",
+  "peerDependencies": {
+    "@commitlint/cli": ">=12.0.0"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.4.2",
+    "commitlint-config-ali": "^0.1.3"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint/tree/main/packages/commitlint-config-keroro",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

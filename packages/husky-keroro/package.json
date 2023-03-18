@@ -1,0 +1,36 @@
+{
+  "name": "husky-keroro",
+  "version": "1.0.8",
+  "description": "Keroro husky configuration file",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./index.js"
+  },
+  "peerDependencies": {
+    "husky": ">=8.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint/tree/main/packages/husky-keroro",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

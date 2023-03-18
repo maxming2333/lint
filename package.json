@@ -1,0 +1,51 @@
+{
+  "name": "lint-keroro",
+  "version": "1.0.0",
+  "description": "Collection of lint related packages (eslint & stylelint & commitlint & husky & lint-staged)",
+  "scripts": {
+    "lint:common": "eslint --ext .js,.ts,.jsx,.tsx,.vue,.tsvue,.htm,.html --max-warnings=0",
+    "lint": "npm run lint:common -- .",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:commit": "cross-env GIT_HOOK=pre-commit npm run lint:common",
+    "stylelint:common": "stylelint --max-warnings=0",
+    "stylelint": "npm run stylelint:common -- \"**/*.{css,less,scss,sass,vue,tsvue,htm,html}\"",
+    "stylelint:fix": "npm run stylelint -- --fix",
+    "stylelint:commit": "cross-env GIT_HOOK=pre-commit npm run stylelint:common",
+    "lint:all": "npm run lint && npm run stylelint",
+    "lint:all:fix": "npm run lint:fix && npm run stylelint:fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "commitlint-config-keroro": "workspace:*",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.36.0",
+    "eslint-config-keroro": "workspace:*",
+    "husky": "^8.0.3",
+    "husky-keroro": "workspace:*",
+    "lint-staged": "^13.2.0",
+    "lint-staged-keroro": "workspace:*",
+    "stylelint": "^15.3.0",
+    "stylelint-config-keroro": "workspace:*"
+  },
+  "maintainers": [
+    {
+      "name": "keroming",
+      "email": "maxming2333@gmail.com"
+    }
+  ],
+  "author": "keroming <maxming2333@gmail.com>",
+  "homepage": "https://github.com/maxming2333/lint",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxming2333/lint.git",
+    "web": "https://github.com/maxming2333/lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxming2333/lint/issues",
+    "email": "maxming2333@gmail.com"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+#!/usr/bin/env sh
+
+PROJECT_PATH="$(pwd)"
+
+. "$(dirname -- "$0")/_/husky.sh"
+. "$(dirname -- "$0")/shell/common.sh"
+
+cd "$PROJECT_PATH"
+
+echo "[pre-commit]当前项目目录为：$PROJECT_PATH"
+
+if [ -f '.gitmodules' ]; then
+  submodule=`git submodule --quiet foreach --recursive 'echo $name'`
+  for item in `echo $submodule`; do
+    sh "$(dirname -- "$0")/shell/check-submodule.sh" "pre-commit" "$item"
+  done
+fi
+
+npx --no-install lint-staged --no-stash
