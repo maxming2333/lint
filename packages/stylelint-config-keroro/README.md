@@ -22,7 +22,7 @@
 ## 安装
 
 ```bash
-npm install stylelint-config-keroro
+npm install stylelint-config-keroro --save-dev
 ```
 
 ## 使用

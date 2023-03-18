@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-npm install husky-keroro
+npm install husky-keroro --save-dev
 ```
 
 ## 使用

@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-npm install commitlint-config-keroro
+npm install commitlint-config-keroro --save-dev
 ```
 
 ## 使用

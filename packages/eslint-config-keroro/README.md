@@ -13,7 +13,7 @@
 ## 安装
 
 ```bash
-npm install eslint-config-keroro
+npm install eslint-config-keroro --save-dev
 ```
 
 ## 使用

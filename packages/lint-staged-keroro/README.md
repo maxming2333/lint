@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-npm install lint-staged-keroro
+npm install lint-staged-keroro --save-dev
 `````
 
 ## 使用
