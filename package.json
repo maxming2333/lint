@@ -14,16 +14,16 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
-    "commitlint-config-keroro": "workspace:*",
+    "commitlint-config-keroro": "workspace:^",
     "cross-env": "^7.0.3",
     "eslint": "^8.36.0",
-    "eslint-config-keroro": "workspace:*",
+    "eslint-config-keroro": "workspace:^",
     "husky": "^8.0.3",
-    "husky-keroro": "workspace:*",
+    "husky-keroro": "workspace:^",
     "lint-staged": "^13.2.0",
-    "lint-staged-keroro": "workspace:*",
+    "lint-staged-keroro": "workspace:^",
     "stylelint": "^15.3.0",
-    "stylelint-config-keroro": "workspace:*"
+    "stylelint-config-keroro": "workspace:^"
   },
   "maintainers": [
     {
