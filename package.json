@@ -1,6 +1,4 @@
 {
-  "name": "lint-keroro",
-  "version": "1.0.0",
   "description": "Collection of lint related packages (eslint & stylelint & commitlint & husky & lint-staged)",
   "scripts": {
     "lint:common": "eslint --ext .js,.ts,.jsx,.tsx,.vue,.tsvue,.htm,.html --max-warnings=0",

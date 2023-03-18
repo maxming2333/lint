@@ -18,3 +18,9 @@
 pnpm i
 pnpm i -w
 ```
+
+## 发包
+
+```bash
+pnpm -r publish
+```
