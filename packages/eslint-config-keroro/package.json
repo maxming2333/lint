@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-keroro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Keroro Eslint configuration file, suitable for all (JS+TS) hybrid engineering",
   "main": "index.js",
   "peerDependencies": {

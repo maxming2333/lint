@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   extends: [
-    'keroro',
+    'eslint-config-keroro',
   ],
   rules: {
     'no-console': 'off',

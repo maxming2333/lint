@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    'keroro',
+    'stylelint-config-keroro',
   ],
 };

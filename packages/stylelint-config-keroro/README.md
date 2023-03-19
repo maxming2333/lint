@@ -33,7 +33,7 @@ npm install stylelint-config-keroro --save-dev
 // .stylelintrc.js
 module.exports = {
   extends: [
-    'keroro',
+    'stylelint-config-keroro',
   ],
 };
 ```
@@ -44,7 +44,7 @@ module.exports = {
 // .stylelintrc.js
 module.exports = {
   extends: [
-    'keroro/uni-app',
+    'stylelint-config-keroro/uni-app',
   ],
 };
 ```

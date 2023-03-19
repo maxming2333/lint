@@ -24,7 +24,7 @@ npm install eslint-config-keroro --save-dev
 module.exports = {
   root: true,
   extends: [
-    'keroro',
+    'eslint-config-keroro',
   ],
 };
 ```
@@ -35,7 +35,7 @@ module.exports = {
 module.exports = {
   root: true,
   extends: [
-    'keroro/vue',
+    'eslint-config-keroro/vue',
   ],
 };
 ```
@@ -46,7 +46,7 @@ module.exports = {
 module.exports = {
   root: true,
   extends: [
-    'keroro/vue3',
+    'eslint-config-keroro/vue3',
   ],
 };
 ```
@@ -57,7 +57,7 @@ module.exports = {
 module.exports = {
   root: true,
   extends: [
-    'keroro/react',
+    'eslint-config-keroro/react',
   ],
 };
 ```
@@ -68,7 +68,7 @@ module.exports = {
 module.exports = {
   root: true,
   extends: [
-    'keroro/uni-app',
+    'eslint-config-keroro/uni-app',
   ],
 };
 ```
@@ -79,7 +79,7 @@ module.exports = {
 module.exports = {
   root: true,
   extends: [
-    'keroro/uni-app3',
+    'eslint-config-keroro/uni-app3',
   ],
 };
 ```

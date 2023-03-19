@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-keroro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keroro Stylelint configuration file",
   "main": "index.js",
   "peerDependencies": {
