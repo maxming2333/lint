@@ -1,6 +1,6 @@
 {
   "name": "lint-staged-keroro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keroro lint-staged configuration file",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "peerDependencies": {
     "eslint": ">=7.0.0",
+    "stylelint": ">=14.0.0",
     "lint-staged": ">=13.0.0"
   },
   "dependencies": {
