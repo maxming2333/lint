@@ -28,7 +28,7 @@ npm install eslint-plugin-tsvue eslint-plugin-tsvue-parser --save-dev
   parserOptions: {
     parser: require.resolve('@babel/eslint-parser'),
   },
-  plugins: ['eslint-plugin-tsvue'],
+  plugins: ['tsvue'],
   overrides: [
     {
       files: ['**/*.{ts,tsx,tsvue}'],

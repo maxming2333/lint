@@ -1,5 +1,7 @@
 const vueParser = require('vue-eslint-parser');
 
+Object.assign(module.exports, vueParser);
+
 function parseForESLint(code, options) {
   return vueParser.parseForESLint(code, {
     ...options,
@@ -11,7 +13,5 @@ function parse(code, options) {
   return parseForESLint(code, options).ast;
 }
 
-module.exports = Object.assign(vueParser, {
-  parseForESLint,
-  parse,
-});
+exports.parseForESLint = parseForESLint;
+exports.parse = parse;
