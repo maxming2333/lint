@@ -1,6 +1,4 @@
 {
-  "name": "lint-keroro",
-  "version": "1.0.0",
   "private": true,
   "description": "Collection of lint related packages (eslint & stylelint & commitlint & husky & lint-staged)",
   "scripts": {
@@ -16,7 +14,7 @@
     "lint:all:fix": "npm run lint:fix && npm run stylelint:fix"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
+    "@commitlint/cli": "^17.5.0",
     "commitlint-config-keroro": "workspace:^",
     "cross-env": "^7.0.3",
     "eslint": "^8.36.0",

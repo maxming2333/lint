@@ -67,13 +67,8 @@ module.exports = {
   'comment-no-empty': true,
   // 禁止简写属性的冗余值
   'shorthand-property-no-redundant-values': true,
-  // 禁止值的浏览器引擎前缀
-  'value-no-vendor-prefix': [
-    true,
-    {
-      ignoreValues: 'box',
-    },
-  ],
+  // 允许浏览器引擎前缀
+  'value-no-vendor-prefix': null,
   // 禁止小于 1 的小数有一个前导零
   'number-leading-zero': null,
   // 禁止空第一行
