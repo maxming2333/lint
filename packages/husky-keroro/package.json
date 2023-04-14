@@ -1,6 +1,6 @@
 {
   "name": "husky-keroro",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Keroro husky configuration file",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "husky": ">=8.0.0"
   },
   "dependencies": {
-    "fs-extra": "^11.1.0"
+    "fs-extra": "^11.1.0",
+    "klaw-sync": "^6.0.0"
   },
   "maintainers": [
     {
