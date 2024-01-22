@@ -10,7 +10,7 @@ module.exports = Object.assign({}, vueEslintPluginProcessor, {
       return vueEslintPluginProcessor.preprocess(text);
     }
 
-    const name = filename.replace(/\.vue$/, `.${lang}vue`);
+    const name = filename.replace(/\.vue$/, `/.__lint_lang_${lang}/0_.vue`);
     return [
       {
         text,
