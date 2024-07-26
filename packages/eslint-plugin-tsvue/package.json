@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-tsvue",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Used for the JS/TS hybrid project, make vue+ts become another extension",
   "main": "index.js",
   "peerDependencies": {
