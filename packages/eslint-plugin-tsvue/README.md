@@ -6,7 +6,7 @@
 
 本插件用来解决 vue 项目中 JS/TS 混合开发的过度阶段带来的 eslint 问题
 
-核心思想是用一个 eslint 插件，把 vue+ts 的 vue 文件，修改文件路径，增加 `.__lint_lang_ts` 路径标识
+核心思想是用一个 eslint 插件，把 vue+ts 的 vue 文件，修改文件后缀，增加 `.tsvue` 后缀标识
 
 从而达到按语言区分文件名，这样可以在 eslint 里面用 overwrite 进行规则区分了
 
@@ -29,11 +29,11 @@ npm install eslint-plugin-tsvue --save-dev
   plugins: ['tsvue'],
   overrides: [
     {
-      files: ['**/*.{ts,tsx,jsx}', '**/.__lint_lang_ts/*.vue'],
+      files: ['*.{ts,tsx,tsvue,tsxvue}', '**/*.{ts,tsx,tsvue,tsxvue}'],
       parser: require.resolve('vue-eslint-parser'),
       parserOptions: {
         parser: require.resolve('@typescript-eslint/parser'),
-        extraFileExtensions: ['.vue'],
+        extraFileExtensions: ['.vue', '.tsvue', '.tsxvue'],
         ...
       },
       plugins: ['@typescript-eslint'],
